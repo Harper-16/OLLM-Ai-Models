@@ -1,0 +1,25 @@
+{
+  "data": [
+    "/home/player6/Model-Az/AC-model/data/training_shards",
+    "/home/player6/Model-Az/AC-model/data/combined_train"
+  ],
+  "tokenizer": "/home/player6/Model-Az/AC-model/data/sharded_model/tokenizer.json",
+  "out": "runs/ultimate",
+  "seq_len": 128,
+  "dim": 256,
+  "layers": 12,
+  "heads": 8,
+  "kv_heads": 2,
+  "ffn": 768,
+  "batch": 1,
+  "grad_accum": 4,
+  "steps": 20,
+  "lr": 0.0003,
+  "warmup": 5,
+  "weight_decay": 0.1,
+  "grad_clip": 1.0,
+  "workers": 1,
+  "resume": "",
+  "save_every": 20,
+  "log_every": 10
+}
